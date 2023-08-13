@@ -70,12 +70,18 @@ margin-left: 200px;
   .container {
  
   }
-  .dish3{
-   
+  .menu3{
+   margin-top: 50px;
   }
 }
+.menu2{
+ margin-top: 50px;
+
+}
+
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
+   
   }
 }
