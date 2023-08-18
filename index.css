@@ -4,11 +4,26 @@
   flex-wrap: wrap;
 
 }
+.logo{
+font-size: 20px;
+font-weight: 700;
+}
+
+.wrap{
+  border: 1px solid black; /* Sets a solid black border with a width of 1 pixel */
+  padding: 10px; /* Adds some padding inside the border */
+  margin-right: 20px;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: gray;
+
+}
 h1{
-  display: center;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   color: green;
+  font-weight: 800;
 
 }
 
@@ -66,8 +81,13 @@ margin-left: 200px;
 
 }
 
-@media (max-width: 991px) {
-  .container {
+.navbar-brand{
+  font-weight: 800;
+  background-color: gray;
+}
+@media (max-width: 1500px) {
+  .nav-item{
+    display: none;
  
   }
   .menu3{
